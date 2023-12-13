@@ -7,7 +7,7 @@ def test_calculate_area_square():
 #negative case
 def test_calculate_area_square_negative():
     with pytest.raises(TypeError):
-        calculate_area_square(7)
+        calculate_area_square(-7)
 
 def test_calculate_area_square_string():
     with pytest.raises(TypeError):
