@@ -6,7 +6,9 @@ Project ini menjelaskan bagaimana menjalankan unit testing secara otomatis mengg
 
 ## Requirements
 * Python (3.10.10)
+
 Untuk run di local 
+
 Harap install dependencies melalui file `requirements.txt` 
 ```commandline
 pip install -r requirements.txt
