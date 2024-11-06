@@ -1,2 +1,2 @@
-def convert_lowercase(s)
+def convert_lowercase(s):
     return pass
