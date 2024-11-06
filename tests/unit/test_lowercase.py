@@ -5,3 +5,6 @@ def test_convert_lowercase_string():
 
 def test_convert_lowercase_int():
     assert convert_lowercase(123) == "Invalid input"
+
+def test_convert_lowercase_boolean():
+    assert convert_lowercase(True) == "Invalid input"
