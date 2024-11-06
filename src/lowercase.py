@@ -1,2 +1,2 @@
 def convert_lowercase(s):
-    pass
+    return s.lower()
