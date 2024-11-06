@@ -8,3 +8,6 @@ def test_convert_lowercase_int():
 
 def test_convert_lowercase_boolean():
     assert convert_lowercase(True) == "Invalid input"
+
+def test_convert_lowercase_empty_string():
+    assert convert_lowercase("") == "String is empty"
